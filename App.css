@@ -1,0 +1,99 @@
+* {
+
+  margin: 0;
+  padding: 0;
+}
+
+
+.App {
+
+background-color: rgb(15, 23, 16);
+padding-left: 43%;
+padding-bottom: 10%;
+padding-top: 5%;
+}
+
+
+.App h1{
+
+  margin-left: 7%;
+  color: rgb(247, 119, 7);
+}
+
+
+.BeautifulScreen {
+
+  background-color: rgb(15, 23, 16);
+  color: green;
+  width: 37%;
+  text-align: center;
+  margin-bottom: 3%;
+  margin-top: 3%;
+  border-radius: 20px;
+}
+
+
+.divNumbers {
+
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: repeat(3,1fr);
+  gap: 10px;
+  width: 43.2%;
+}
+
+
+.AmazingNumberButton {
+
+  display: grid;
+  place-content: center;
+  background-color: rgb(15, 23, 16);
+  color: green;
+  width: 40%;
+  border-radius: 5%;
+  cursor: pointer;
+  padding: 0 12% 0 12%;
+  border: solid 1px rgb(227, 99, 35);
+}
+
+
+.divOperations {
+
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-template-rows: repeat(3,1fr);
+  gap: 10px;
+  width: 21%;
+  margin-top: 2%;
+  margin-bottom: 0;
+  display: flex;
+  margin-bottom: 3%;
+}
+
+
+.GreatOperationButton {
+
+  display: flex;
+  justify-content: center;
+  padding: 0 16.5% 0 16.5%;
+  place-content: center;
+  background-color: rgb(15, 23, 16);
+  color: green;
+  width: 33%;
+  border-radius: 5%;
+  cursor: pointer;
+  border: solid 1px rgb(227, 99, 35);
+}
+
+
+.MagnificientEqualButton {
+
+  background-color: rgb(15, 23, 16);
+  border: solid 1px rgb(227, 99, 35);
+  color: green;
+  width: 37%;
+  text-align: center;
+  border-radius: 20px;
+  margin-bottom: 10%;
+  cursor: pointer;
+}
